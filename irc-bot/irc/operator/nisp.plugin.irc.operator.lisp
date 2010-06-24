@@ -19,7 +19,10 @@
 ;; Channel modes class
 
 (defclass channel-modes ()
-  ((name :
+  ((name  :accessor chan-name
+	  :initform "#channel"
+	  :initarg  :name)
+
    (modes :accessor chan-modes
 	  :initform ""
 	  :initarg :chan-modes))
