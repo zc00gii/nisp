@@ -1,0 +1,1 @@
+../irc-bot/irc/operator/nisp.plugin.irc.operator.asd
